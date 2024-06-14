@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="20.216" tests="2" skipped="0" failures="0" errors="0">
+<testcase classname="Decathlon Online Shopping" name="Browsing products" time="6.994">
+<system-out><![CDATA[
+Given I am on the Decathlon homepage........................................passed
+When I navigate to the all section section..................................passed
+And I select Running as my sport............................................passed
+Then I should see a list of running-related products........................passed
+]]></system-out>
+</testcase>
+<testcase classname="Decathlon Online Shopping" name="Adding a product to the cart" time="12.993">
+<system-out><![CDATA[
+Given I am on the Decathlon homepage........................................passed
+Given I am viewing a product page...........................................passed
+When I click on the Add to Cart button......................................passed
+Then the product should be added to my shopping cart........................passed
+When I navigate to the shopping cart page...................................passed
+And I click on the Remove button for a product..............................passed
+Then the product should be removed from my cart.............................passed
+]]></system-out>
+</testcase>
+</testsuite>
