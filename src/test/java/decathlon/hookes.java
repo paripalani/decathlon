@@ -44,10 +44,15 @@ public class hookes extends Baseclass{
 		
 		}
 		
+		refresh();
+		
+		minimizeWindow();
+		
 	closeDriver();
 		
 		
 	}
+	
 	
 	
 }
