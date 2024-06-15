@@ -84,7 +84,8 @@ public void the_product_should_be_added_to_my_shopping_cart() {
 	 boolean status3 = findelement("xpath","//p[text()='JOGFLOW 100 Superior Grip Cushioned Men Running Shoes max 10km/wk- Navy Orange']").isDisplayed();
 	 Assert.assertEquals(true, status3);
 	
-
+	 System.out.println("task completed");
+		
 }
 
 
@@ -95,6 +96,7 @@ public void i_navigate_to_the_shopping_cart_page() {
 	
     System.out.println("ur in cart");
 	
+    System.out.println("task completed");
 	
 }
 
@@ -119,7 +121,7 @@ public void theProductShouldBeRemovedFromMyCart() {
 	boolean displayed = findelement("xpath","//a[text()='CONTINUE SHOPPING']").isDisplayed();
 	Assert.assertEquals(true, displayed);
 	
-	
+	System.out.println("task completed");
 	
    
 	
